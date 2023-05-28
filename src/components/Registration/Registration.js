@@ -29,7 +29,7 @@ const Registration = () => {
       password: password,
     };
 
-    fetch("http://localhost:5000/singup", {
+    fetch("https://login-user-sever.vercel.app/singup", {
       method: "POST",
       headers: {
         'content-type': 'application/json'
